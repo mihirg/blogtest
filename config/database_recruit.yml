@@ -1,0 +1,36 @@
+development:
+  adapter: mysql2
+  database: test
+  host: localhost
+  username: root
+  password: mysql
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  port: 3306
+  collation: utf8_general_ci
+
+
+test:
+  adapter: mysql2
+  database: recruit_test
+  host: localhost
+  username: root
+  password: mysql
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  port: 3306
+  collation: utf8_general_ci
+
+production:
+  adapter: mysql2
+  database: recruit
+  host: localhost
+  username: master
+  password: test
+  encoding: utf8
+  reconnect: false
+  pool: 2
+  collation: utf8_general_ci
+  reconnect: true
